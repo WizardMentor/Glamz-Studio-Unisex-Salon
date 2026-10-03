@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Glamz Studio Unisex Salon in Gorakhpur — premium hair, beauty and grooming services.">
+<title>Glamz Studio Unisex Salon | Gorakhpur</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<style>
+:root{--bg:#0b0b0b;--panel:#121212;--panel2:#171717;--text:#f8f5ef;--muted:#aaa49b;--gold:#c8a66b;--gold2:#e1c58d;--line:rgba(255,255,255,.1);--max:1180px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:"DM Sans",sans-serif;line-height:1.6}a{text-decoration:none;color:inherit}button,input,select,textarea{font:inherit}.container{width:min(92%,var(--max));margin:auto}.serif,h1,h2{font-family:"Playfair Display",serif}.eyebrow{color:var(--gold2);font-size:.72rem;font-weight:700;letter-spacing:3px;text-transform:uppercase}.section{padding:100px 0}.section-head{max-width:680px;margin-bottom:44px}.section-head p{color:var(--muted);margin:15px 0 0}h1{font-size:clamp(3rem,7vw,6.5rem);line-height:.98;margin:14px 0 22px}h2{font-size:clamp(2.3rem,5vw,4rem);line-height:1.05;margin:8px 0}h3{line-height:1.2}.btn{display:inline-flex;align-items:center;justify-content:center;border:1px solid var(--gold);border-radius:999px;padding:13px 21px;font-weight:700;font-size:.88rem;transition:.25s;cursor:pointer}.btn.gold{background:var(--gold);color:#0b0b0b}.btn:hover{transform:translateY(-2px);background:rgba(200,166,107,.12)}.btn.gold:hover{background:var(--gold2)}.grid{display:grid;gap:20px}
+
+header{position:fixed;z-index:1000;top:0;width:100%;padding:22px 0;transition:.25s}header.scrolled{background:rgba(8,8,8,.94);backdrop-filter:blur(15px);border-bottom:1px solid var(--line);padding:13px 0}.nav{display:flex;align-items:center;justify-content:space-between;gap:20px}.logo{font-family:"Playfair Display",serif;font-size:1.45rem;font-weight:700}.logo span{color:var(--gold2)}nav ul{display:flex;gap:25px;list-style:none;margin:0;padding:0}nav a{color:#ddd;font-size:.85rem}nav a:hover{color:var(--gold2)}.nav-right{display:flex;align-items:center;gap:10px}.menu{display:none;background:none;border:0;color:#fff;font-size:1.7rem}
+
+.hero{min-height:100svh;display:flex;align-items:center;position:relative;background:linear-gradient(90deg,rgba(5,5,5,.9),rgba(5,5,5,.58),rgba(5,5,5,.2)),url("https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=2200&q=85") center/cover}.hero-inner{padding-top:80px;max-width:850px}.hero p{max-width:650px;color:#ddd;font-size:1.05rem}.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}.scroll{position:absolute;bottom:25px;left:50%;transform:translateX(-50%);font-size:.7rem;letter-spacing:2px;color:#bbb;text-transform:uppercase}
+
+.about{background:#101010}.about-grid{grid-template-columns:1fr 1fr;align-items:center}.about-img{border-radius:22px;overflow:hidden;min-height:520px}.about-img img{height:100%;min-height:520px}.about-copy p{color:var(--muted);margin:18px 0}.checks{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:24px 0}.check{border:1px solid var(--line);padding:12px 14px;border-radius:12px;background:rgba(255,255,255,.02)}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:30px}.stat{border-top:1px solid var(--line);padding-top:14px}.stat b{display:block;color:var(--gold2);font-size:1.35rem}.stat small{color:var(--muted)}
+
+.tabs{display:flex;gap:9px;flex-wrap:wrap;margin-bottom:28px}.tab{border:1px solid var(--line);background:none;color:#ddd;padding:10px 16px;border-radius:999px;cursor:pointer}.tab.active,.tab:hover{border-color:var(--gold);color:var(--gold2)}.service-grid{grid-template-columns:repeat(3,1fr)}.service{background:var(--panel);border:1px solid var(--line);padding:22px;border-radius:18px;transition:.25s}.service:hover{transform:translateY(-4px);border-color:rgba(200,166,107,.5)}.service-icon{font-size:1.35rem;color:var(--gold2)}.service p{color:var(--muted);font-size:.88rem}.price{color:var(--gold2);font-weight:700}
+
+.why{background:#101010}.why-grid{grid-template-columns:repeat(4,1fr)}.why-card{padding:28px;border:1px solid var(--line);border-radius:18px;background:rgba(255,255,255,.025)}.why-card span{font-size:1.5rem;color:var(--gold2)}.why-card p{color:var(--muted);font-size:.9rem}
+
+.gallery-grid{columns:3 260px;column-gap:16px}.photo{break-inside:avoid;margin-bottom:16px;border-radius:18px;overflow:hidden;position:relative;background:#171717}.photo img{width:100%;height:auto;transition:.45s}.photo:hover img{transform:scale(1.04)}.photo a{display:block}.photo .caption{position:absolute;left:12px;bottom:12px;background:rgba(0,0,0,.65);backdrop-filter:blur(7px);padding:7px 11px;border-radius:999px;font-size:.75rem}
+
+.reviews{background:#101010}.review-grid{grid-template-columns:repeat(3,1fr)}.review{padding:25px;background:var(--panel);border:1px solid var(--line);border-radius:18px}.stars{color:var(--gold2);letter-spacing:2px}.review p{color:#ccc}.review small{color:var(--muted)}
+
+.booking{background:linear-gradient(135deg,#17120b,#0e0e0e)}.booking-grid{grid-template-columns:.8fr 1.2fr;align-items:start}.form{background:#111;border:1px solid var(--line);padding:26px;border-radius:20px}.fields{display:grid;grid-template-columns:1fr 1fr;gap:14px}.field{display:flex;flex-direction:column;gap:6px}.field.full{grid-column:1/-1}.field label{font-size:.78rem;color:#bbb}.field input,.field select,.field textarea{width:100%;background:#0a0a0a;color:#fff;border:1px solid var(--line);border-radius:10px;padding:12px;outline:none}.field input:focus,.field select:focus,.field textarea:focus{border-color:var(--gold)}textarea{min-height:110px;resize:vertical}.form .btn{margin-top:15px;width:100%}.form-msg{display:none;margin-top:12px;color:var(--gold2);font-size:.85rem}.contact-list{display:grid;gap:12px;margin:28px 0}.contact-item{padding:15px 0;border-bottom:1px solid var(--line)}.contact-item small{display:block;color:var(--gold2);text-transform:uppercase;letter-spacing:1px}.map{margin-top:22px;border-radius:18px;overflow:hidden;border:1px solid var(--line)}.map iframe{width:100%;height:280px;border:0;display:block}
+
+.social-links{display:flex;gap:14px;margin-top:22px;align-items:center}
+.social-links a{display:flex;align-items:center;justify-content:center;width:44px;height:44px;border-radius:50%;background:rgba(255,255,255,.06);border:1px solid var(--line);color:var(--text);font-size:1.15rem;transition:.25s}
+.social-links a:hover{transform:translateY(-3px);border-color:var(--gold);background:rgba(200,166,107,.15);color:var(--gold2)}
+.social-links a.instagram:hover{background:linear-gradient(45deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888);border-color:transparent;color:#fff}
+.social-links a.facebook:hover{background:#1877f2;border-color:transparent;color:#fff}
+.social-links a.email:hover{background:var(--gold);border-color:transparent;color:#0b0b0b}
+
+footer{padding:50px 0 25px;border-top:1px solid var(--line);background:#070707}.footer-top{display:flex;justify-content:space-between;gap:30px;flex-wrap:wrap}.footer-top p{max-width:430px;color:var(--muted)}.footer-links{display:flex;gap:20px;flex-wrap:wrap;color:#ccc;font-size:.85rem}.copyright{border-top:1px solid var(--line);margin-top:30px;padding-top:20px;color:#777;font-size:.78rem}
+
+.reveal{opacity:0;transform:translateY(22px);transition:.7s ease}.reveal.show{opacity:1;transform:none}
+
+@media(max-width:850px){nav ul{display:none;position:absolute;top:72px;left:4%;right:4%;background:#0d0d0d;border:1px solid var(--line);border-radius:16px;padding:15px;flex-direction:column;gap:0}nav ul.open{display:flex}nav li{padding:12px 4px}.menu{display:block}.nav-right .btn{display:none}.about-grid,.booking-grid{grid-template-columns:1fr}.about-img{min-height:360px}.about-img img{min-height:360px}.service-grid{grid-template-columns:1fr 1fr}.why-grid{grid-template-columns:1fr 1fr}.review-grid{grid-template-columns:1fr}.stats{grid-template-columns:1fr 1fr}}
+@media(max-width:560px){.section{padding:76px 0}.hero{background-position:62% center}.hero p{font-size:.95rem}.checks,.fields,.service-grid,.why-grid{grid-template-columns:1fr}.stats{grid-template-columns:1fr 1fr}.gallery-grid{columns:2 150px}.logo{font-size:1.18rem}.about-img{min-height:300px}.about-img img{min-height:300px}}
+</style>
+</head>
+<body>
+<header id="header">
+  <div class="container nav">
+    <a class="logo" href="#home">Glamz <span>Studio</span></a>
+    <nav>
+      <ul id="navList">
+        <li><a href="#home">Home</a></li><li><a href="#about">About</a></li><li><a href="#services">Services</a></li>
+        <li><a href="#gallery">Gallery</a></li><li><a href="#reviews">Reviews</a></li><li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="nav-right"><a class="btn gold" href="#appointment">Book Appointment</a><button class="menu" id="menuBtn" aria-label="Open menu">☰</button></div>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="container hero-inner reveal">
+    <div class="eyebrow">Unisex Salon · Gorakhpur</div>
+    <h1>Your Style.<br>Your Confidence.<br><span style="color:var(--gold2)">Your Glam.</span></h1>
+    <p>Premium hair, beauty and grooming services for everyone at Glamz Studio Unisex Salon.</p>
+    <div class="hero-actions"><a class="btn gold" href="#appointment">Book Appointment</a><a class="btn" href="#services">Explore Services</a></div>
+  </div>
+  <div class="scroll">Scroll to explore</div>
+</section>
+
+<section class="section about" id="about">
+      <div class="eyebrow">About Glamz Studio</div><h2>Where Style Meets Confidence</h2>
+      <p>Glamz Studio Unisex Salon is designed around a simple idea: great grooming should feel personal, comfortable and premium. From everyday styling to special-occasion beauty, our services are built to help every client leave feeling refreshed and confident.</p>
+      <div class="checks"><div class="check">✦ Professional stylists</div><div class="check">✦ Personalized service</div><div class="check">✦ Premium experience</div><div class="check">✦ Hygiene & comfort</div></div>
+      <div class="stats"><div class="stat"><b>500+</b><small>Happy Clients*</small></div><div class="stat"><b>5+</b><small>Years Experience*</small></div><div class="stat"><b>20+</b><small>Services*</small></div><div class="stat"><b>Pro</b><small>Stylists</small></div></div>
+      <small style="display:block;color:#777;margin-top:12px">*Editable placeholders — replace with verified business figures.</small>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="services">
+  <div class="container">
+    <div class="section-head reveal"><div class="eyebrow">Our Services</div><h2>Carefully crafted for your look.</h2><p>Choose a category to explore services. Prices are editable placeholders and should be replaced with the salon's current menu.</p></div>
+    <div class="tabs" role="tablist"><button class="tab active" data-cat="hair">Hair</button><button class="tab" data-cat="men">Men's Grooming</button><button class="tab" data-cat="women">Women's Beauty</button></div>
+    <div class="service-grid grid" id="serviceGrid"></div>
+  </div>
+</section>
+
+<section class="section why">
+  <div class="container"><div class="section-head reveal"><div class="eyebrow">The Glamz Difference</div><h2>Why Glamz Studio?</h2></div>
+  <div class="why-grid grid">
+    <article class="why-card reveal"><span>✦</span><h3>Expert Stylists</h3><p>Professional stylists focused on personalized looks and thoughtful consultation.</p></article>
+    <article class="why-card reveal"><span>◇</span><h3>Premium Experience</h3><p>A relaxing and sophisticated environment where your time feels well spent.</p></article>
+    <article class="why-card reveal"><span>✧</span><h3>Modern Techniques</h3><p>Contemporary styling, grooming and beauty techniques tailored to your needs.</p></article>
+    <article class="why-card reveal"><span>✓</span><h3>Hygiene First</h3><p>A clean, comfortable salon environment with attention to hygiene.</p></article>
+  </div></div>
+</section>
+
+<section class="section" id="gallery">
+  <div class="container">
+    <div class="section-head reveal"><div class="eyebrow">Our Gallery</div><h2>A glimpse inside Glamz.</h2><p>These photos were supplied through the salon's Google Maps photo links.</p></div>
+    <div class="gallery-grid">
+      <div class="photo reveal"><a href="https://maps.app.goo.gl/5jYKfrAsku4wCGqXA" target="_blank" rel="noopener"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RlbEgUfgMsZe6b_ltAc9m9redjuEUb5au5T-h9ZrPsFEKM8B8WOpe3VtYs8bC3OdoXz7RiuPleXor3VszcoRKfcAAMmZjiAxtMcxNLZTpvt-aQ_kEXwqqd5sOdMfrzN8NDUuC-=w900-h1597-k-no" alt="Glamz Studio photo 1" loading="lazy"><span class="caption">View photo</span></a></div>
+      <div class="photo reveal"><a href="https://maps.app.goo.gl/FSRdF6fvdN8ectG16" target="_blank" rel="noopener"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9ST27rBeeEZKblC-DN9_PkQaouceBF-LvL4Evv_W9PvPtm-HX-uTAtH0LojchORnsEF5NbdwAEleK92M5v8zWThDE3W4U2Mm1E-7F_OLtomB0FiIyouZocg1VPbQe8_ah6w374Y=w900-h1597-k-no" alt="Glamz Studio photo 2" loading="lazy"><span class="caption">View photo</span></a></div>
+      <div class="photo reveal"><a href="https://maps.app.goo.gl/7cdqdtq1EHx8JFGE9" target="_blank" rel="noopener"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SjyVKiFXx5VtBmclajRGYlWyi2BeXnZrAIwX08IZIKAqjypQcgOg-PW9DHZDFTBT8sJR7Pe9dEM0MoSAumfN426YRElrDZ6YzRJ4hdHxNzru0lth1ZdpJrf4HHhLQdq21fjB1Y=w900-h1127-k-no" alt="Glamz Studio photo 3" loading="lazy"><span class="caption">View photo</span></a></div>
+      <div class="photo reveal"><a href="https://maps.app.goo.gl/FRX69JFm43gByWQm7" target="_blank" rel="noopener"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9So5fjZlcyYpSFCkbSs5_HRx7lCEJ4XDFpXsEU9LY8hEBLwlhX4pAsnR4NpJtef7aRlVrphUK-zFnwuZSq6bwyPVgPwVhP24Daz1WHLASN8lsGb9tWX0VTtYlTq2zkwPTqDmG01=w900-h1597-k-no" alt="Glamz Studio photo 4" loading="lazy"><span class="caption">View photo</span></a></div>
+      <div class="photo reveal"><a href="https://maps.app.goo.gl/7sPXKcmVXab565VV7" target="_blank" rel="noopener"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SslA5yQWPR4H72Jn9qFF8hhbH2h7OWfntkBVl1LilebIVCHBWWnDxx04l955CHAtX-O3z2ZCSsmi61y-PXELSvSeK90YiK-KKYLMqIOtUxPnT03IpqzPLnHQ-1Kevp8gry_tyy=w900-h1472-k-no" alt="Glamz Studio photo 5" loading="lazy"><span class="caption">View photo</span></a></div>
+      <div class="photo reveal"><a href="https://maps.app.goo.gl/7ygFAWwKCMhwVgv79" target="_blank" rel="noopener"><img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkvbESo6RC5QpFJoftQ1r9DiOsT3E5bsMgMhC1PEbswHMyZdPX9hahEAchQvjJ76asD80JQ-AbuFPCPwESRqrL1UQcGz6oejJw-jD_YesKB-SUhL2A2_4r92XJIWGStqQ6zl8C_wrI3A8h-=w900-h1600-k-no" alt="Glamz Studio photo 6" loading="lazy"><span class="caption">View photo</span></a></div>
+    </div>
+  </div>
+</section>
+
+<section class="section reviews" id="reviews">
+  <div class="container"><div class="section-head reveal"><div class="eyebrow">Client Reviews</div><h2>What Our Clients Say</h2><p>Placeholder testimonials — replace these with genuine customer reviews before publishing.</p></div>
+  <div class="review-grid grid">
+    <article class="review reveal"><div class="stars">★★★★★</div><p>“Awesome service,we did the bridal makeup from here and it was wpnderful,the staffs are cool and polite.They do the full work making us stress free.Really nice experience.”</p><small>Tejashwi Tiwari</small></article>
+    <article class="review reveal"><div class="stars">★★★★★</div><p>“Very happy with the makeup.Staff are cooperative and nice.Good service.”</p><small>DIKSHA KUMARI</small></article>
+    <article class="review reveal"><div class="stars">★★★★★</div><p>“Awesome Makeup.My Bridal Makeup was just wao.Thank you so much Glamz Studio.”</p><small>Sweta Srivastav</small></article>
+  </div></div>
+</section>
+
+<section class="section booking" id="appointment">
+  <div class="container booking-grid grid">
+    <div class="reveal"><div class="eyebrow">Appointments</div><h2>Ready for your next look?</h2><p style="color:var(--muted);margin-top:18px">Send an appointment request and the salon can confirm your preferred service, date and time.</p><div class="contact-list">
+      <div class="contact-item"><small>Call</small><a href="tel:+919598080090">095980 80090</a></div>
+      <div class="contact-item"><small>Location</small><span>1st floor, in front of G.N. National Public School, Gorakhnath Rd, Gorakhpur, Uttar Pradesh 273015</span></div>
+      <div class="contact-item"><small>Hours</small><span>Daily · 10:00 AM – 8:30 PM</span></div>
+    </div></div>
+    <form class="form reveal" id="appointmentForm">
+      <div class="fields">
+        <div class="field"><label for="name">Name</label><input id="name" required placeholder="Your name"></div>
+        <div class="field"><label for="phone">Phone</label><input id="phone" required inputmode="tel" placeholder="Your phone number"></div>
+        <div class="field"><label for="email">Email</label><input id="email" type="email" placeholder="Optional"></div>
+        <div class="field"><label for="service">Service</label><select id="service" required><option value="">Choose service</option><option>Haircut & Styling</option><option>Hair Spa</option><option>Hair Color</option><option>Men's Grooming</option><option>Women's Beauty</option><option>Other</option></select></div>
+        <div class="field"><label for="date">Preferred Date</label><input id="date" type="date" required></div>
+        <div class="field"><label for="time">Preferred Time</label><input id="time" type="time" required></div>
+        <div class="field full"><label for="message">Message</label><textarea id="message" placeholder="Anything you'd like the salon to know?"></textarea></div>
+      </div>
+      <button class="btn gold" type="submit">Send Appointment Request</button>
+      <div class="form-msg" id="formMsg">Your request has been prepared. Connect this form to WhatsApp/email before launch to send it to the salon.</div>
+    </form>
+  </div>
+</section>
+
+<section class="section" id="contact">
+  <div class="container">
+    <div class="section-head reveal"><div class="eyebrow">Visit Glamz Studio</div><h2>Come in, sit back, and get your glam on.</h2></div>
+    <div class="booking-grid grid">
+      <div class="reveal">
+        <div class="contact-list">
+          <div class="contact-item"><small>Address</small><span>Glamz Studio Unisex Salon, 1st floor, in front of G.N. National Public School, Gorakhnath Rd, Gorakhpur, Uttar Pradesh 273015</span></div>
+          <div class="contact-item"><small>Phone</small><a href="tel:+919598080090">095980 80090</a></div>
+          <div class="contact-item"><small>Email</small><a href="mailto:abhishekanup11@gmail.com">abhishekanup11@gmail.com</a></div>
+          <div class="contact-item"><small>Hours</small><span>Saturday–Friday · 10:00 AM – 8:30 PM</span></div>
+        </div>
+        <div style="display:flex;gap:10px;flex-wrap:wrap">
+          <a class="btn gold" href="tel:+919598080090">Call Now</a>
+          <a class="btn" href="https://wa.me/919598080090?text=Hi%20Glamz%20Studio%2C%20I%20would%20like%20to%20book%20an%20appointment." target="_blank" rel="noopener">WhatsApp</a>
+          <a class="btn" href="https://maps.app.goo.gl/5jYKfrAsku4wCGqXA" target="_blank" rel="noopener">Get Directions</a>
+        </div>
+        <div class="social-links">
+          <a class="instagram" href="https://www.instagram.com/glamz.studio.unisexsalon/" target="_blank" rel="noopener" aria-label="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a class="facebook" href="https://www.facebook.com/share/14qZ8qESq41/" target="_blank" rel="noopener" aria-label="Facebook">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a class="email" href="mailto:abhishekanup11@gmail.com" aria-label="Email">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+      <div class="map reveal"><iframe loading="lazy" src="https://www.google.com/maps?q=Glamz%20Studio%20Unisex%20Salon%2C%20Gorakhpur%2C%20Uttar%20Pradesh&output=embed" title="Glamz Studio Unisex Salon map"></iframe></div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer><div class="container"><div class="footer-top"><div><a class="logo" href="#home">Glamz <span>Studio</span></a><p>Premium hair, beauty and grooming experiences designed around you.</p></div><div class="footer-links"><a href="#home">Home</a><a href="#about">About</a><a href="#services">Services</a><a href="#gallery">Gallery</a><a href="#reviews">Reviews</a><a href="#contact">Contact</a></div></div><div class="copyright">© <span id="year"></span> Glamz Studio Unisex Salon. All rights reserved.</div></div></footer>
+
+<script>
+const services={
+ hair:[
+  ["Haircut & Styling","A polished cut and finish tailored to your look.","Price on request"],
+  ["Hair Wash","A refreshing wash for a clean, comfortable finish.","Price on request"],
+  ["Blow Dry","Smooth, voluminous styling for your occasion.","Price on request"],
+  ["Hair Spa","A relaxing care ritual for refreshed-looking hair.","Price on request"],
+  ["Hair Color","Personalized color services for your desired look.","Price on request"],
+  ["Highlights","Dimension and brightness placed to complement your style.","Price on request"],
+  ["Smoothening","Sleek-looking hair with a salon-finished appearance.","Price on request"],
+  ["Keratin Treatment","Smoother-looking hair with a polished finish.","Price on request"]
+ ],
+ men:[
+  ["Men's Haircut","A clean, personalized cut finished by a stylist.","Price on request"],
+  ["Beard Styling","Shape and refine your beard to suit your face.","Price on request"],
+  ["Beard Trim","Neat trimming and finishing for a well-groomed look.","Price on request"],
+  ["Shaving","A classic grooming service with a clean finish.","Price on request"],
+  ["Hair & Beard Styling","Coordinate your haircut and beard for a complete look.","Price on request"]
+ ],
+ women:[
+  ["Hair Styling","Personalized styling for everyday and special occasions.","Price on request"],
+  ["Facial","A relaxing facial experience tailored to your needs.","Price on request"],
+  ["Cleanup","A refreshing beauty-care service for a clean finish.","Price on request"],
+  ["Waxing","Professional waxing services for a smooth finish.","Price on request"],
+  ["Manicure","Care and grooming for clean, polished-looking hands.","Price on request"],
+  ["Pedicure","A relaxing foot-care and grooming experience.","Price on request"],
+  ["Makeup","Event-ready makeup tailored to your desired style.","Price on request"]
+ ]
+};
+const icons=["✦","✧","◇","✺","◈","✹"];
+function renderServices(cat){
+ const grid=document.getElementById("serviceGrid");
+ grid.innerHTML=services[cat].map((s,i)=>`<article class="service reveal show"><div class="service-icon">${icons[i%icons.length]}</div><h3>${s[0]}</h3><p>${s[1]}</p><div class="price">${s[2]}</div></article>`).join("");
+}
+renderServices("hair");
+document.querySelectorAll(".tab").forEach(btn=>btn.addEventListener("click",()=>{
+ document.querySelectorAll(".tab").forEach(b=>b.classList.remove("active"));btn.classList.add("active");renderServices(btn.dataset.cat);
+}));
+const header=document.getElementById("header");
+window.addEventListener("scroll",()=>header.classList.toggle("scrolled",scrollY>30));
+document.getElementById("menuBtn").addEventListener("click",()=>document.getElementById("navList").classList.toggle("open"));
+document.querySelectorAll("#navList a").forEach(a=>a.addEventListener("click",()=>document.getElementById("navList").classList.remove("open")));
+const obs=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add("show")}),{threshold:.08});
+document.querySelectorAll(".reveal").forEach(e=>obs.observe(e));
+document.getElementById("year").textContent=new Date().getFullYear();
+document.getElementById("appointmentForm").addEventListener("submit",e=>{
+ e.preventDefault();
+ if(!e.currentTarget.checkValidity()){e.currentTarget.reportValidity();return}
+ document.getElementById("formMsg").style.display="block";
+});
+</script>
+</body>
+</html>
